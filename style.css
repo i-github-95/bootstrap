@@ -1,0 +1,69 @@
+/* abhaya-libre-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/abhaya-libre-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/abhaya-libre-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/abhaya-libre-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/abhaya-libre-v17-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/abhaya-libre-v17-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/abhaya-libre-v17-latin-regular.svg#AbhayaLibre') format('svg'); /* Legacy iOS */
+  }
+.font{
+    font-family: 'Abhaya Libre';
+}
+.green{
+    color: #6b705c;
+}
+.body-color{
+    background-color: #fefae062;
+}
+.bg-green{
+    background-color: #b7b7a473;
+}
+.items-photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.theme-btn{
+    display: inline;
+    color: #cb997e;
+    background-color: #ffe8d6;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.sub-info{
+    font-size: 13px;
+}
+.i-info{
+    position: relative;
+}
+.designed{
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #cb997e46;
+}
+.main-slider{
+    background-color: #cb997e46;
+    color: #a87f69;
+}
+.main-slider p{
+    font-size: 13px;
+}
+.like{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 50%;
+}
